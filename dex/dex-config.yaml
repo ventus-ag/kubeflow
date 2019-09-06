@@ -1,0 +1,14 @@
+connectors:
+- type: github
+  # Required field for connector id.
+  id: github
+  # Required field for connector name.
+  name: GitHub
+  config:
+    clientID: ID
+    clientSecret: ID
+    redirectURI: https://127.0.0.1:5556/dex/callback
+    org: ORG
+    loadAllGroups: false
+    teamNameField: slug
+    useLoginAsID: false
